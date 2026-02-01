@@ -1,7 +1,7 @@
 #!/bin/bash
 # gintini-go: Public macOS bootstrap script
 # Purpose: Bootstrap a fresh Mac to the point where GitHub auth works
-# Usage: curl -fsSL https://raw.githubusercontent.com/intinig/gintini-go/main/mac.sh | bash
+# Usage: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/intinig/gintini-go/main/mac.sh)"
 
 set -euo pipefail
 

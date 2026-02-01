@@ -12,7 +12,7 @@ A two-stage macOS bootstrap system for quickly setting up a fresh Mac.
 ### Stage 1: Fresh Mac Setup
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/intinig/gintini-go/main/mac.sh | bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/intinig/gintini-go/main/mac.sh)"
 ```
 
 This installs:
